@@ -1,0 +1,32 @@
+#  Local .terraform directories and files
+**/.terraform/*
+**/.terragrunt-cache/*
+*.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+*out.terraform*
+
+# OSX
+.DS_Store
+
+# JetBrains
+.idea/*
+*.iws
+*.iml
+*.ipr
+
+# AWS credentials
+credentials.aws
+
+**/*lambda.zip
+*.zip
+
+#SSH keys
+*.pem
+

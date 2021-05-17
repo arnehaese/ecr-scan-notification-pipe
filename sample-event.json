@@ -1,0 +1,62 @@
+{
+	'imageDetails': 
+	[
+		{
+			'registryId': '123456789012',
+			'repositoryName': 'demo-repo',
+			'imageDigest': 'sha256:7f5b2640fe6fb4f46592dfd3410c4a79dac4f89e4782432e0378abcd1234',
+			'imageTags': ['2.0.20190115'], 
+			'imageSizeInBytes': 61283455,
+			'imagePushedAt': 1572489492,
+			'imageScanStatus': {
+				'status': 'COMPLETE',
+				'description': 'The scan was completed successfully.'
+			},
+			'imageScanFindingsSummary': {
+				'imageScanCompletedAt': 1572489494,
+				'vulnerabilitySourceUpdatedAt': 1572454026,
+				'findingSeverityCounts': {
+					'HIGH': 9,
+					'LOW': 5,
+					'MEDIUM': 18
+				}
+			}
+		}
+	]
+}
+
+{
+	"imageDetails": 
+	[
+		{
+			"registryId": "123456789012",
+			"repositoryName": "demo-repo",
+			"imageDigest": "sha256:7f5b2640fe6fb4f46592dfd3410c4a79dac4f89e4782432e0378abcd1234",
+			"imageTags": ["2.0.20190115"], 
+			"imageSizeInBytes": 61283455,
+			"imagePushedAt": 1572489492,
+			"imageScanStatus": {
+				"status": "COMPLETE",
+				"description": "The scan was completed successfully."
+			},
+			"imageScanFindingsSummary": {
+				"imageScanCompletedAt": 1572489494,
+				"vulnerabilitySourceUpdatedAt": 1572454026,
+				"findingSeverityCounts": {
+					"HIGH": 9,
+					"LOW": 5,
+					"MEDIUM": 18
+				}
+			}
+		}
+	]
+}
+
+
+{
+  "detail-type": ["ECR Image Scan"],
+  "source": ["aws.ecr"],
+  "detail": {
+	"repository-name": [{"prefix": "ecr_repo"}]
+  }
+}
